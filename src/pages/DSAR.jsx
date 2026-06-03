@@ -21,13 +21,8 @@ function DSAR() {
           </h1>
 
           <p className="relative text-gray-400 text-xl mt-4 max-w-3xl leading-relaxed">
-            Projeto desenvolvido para demonstrar uma abordagem de automação
-            e governança no atendimento de solicitações de titulares (DSAR),
-            incluindo validação, integração de dados, rastreabilidade
-            e apoio à conformidade com a LGPD.Projeto conceitual focado na automação do ciclo de atendimento
-            de solicitações de titulares (DSAR), contemplando validação,
-            integração entre sistemas, rastreabilidade e suporte à
-            conformidade com a LGPD.
+            Automação do ciclo completo de atendimento a titulares de dados,
+            reduzindo o tempo de resposta e aumentando a assertividade via fluxos inteligentes e integração com bases do cliente.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mt-12">
@@ -59,6 +54,7 @@ function DSAR() {
             integração entre sistemas, rastreabilidade, eficiência operacional,
             padronização de processos e mitigação de riscos no tratamento
             de dados pessoais.
+            Projeto desenvolvido para estruturar e automatizar o atendimento a solicitações de titulares (DSAR) em conformidade com a LGPD. A solução contempla a criação de fluxos e regras de triagem, validação de identidade e integração direta com as bases de dados do cliente — eliminando etapas manuais e reduzindo o risco de respostas fora do prazo legal. Implementado nas plataformas OneTrust e Privacy Tools, o projeto reflete experiência prática com os principais ecossistemas de privacidade do mercado.
           </p>
         </section>
 
@@ -89,11 +85,19 @@ function DSAR() {
           </h2>
 
           <p className="text-gray-600 text-xl leading-relaxed">
-            A solução foi desenhada para automatizar o ciclo completo
-            de atendimento DSAR, incluindo validação do titular,
-            integração com bases, classificação de dados e
-            resposta automatizada.
-          </p>
+            A solução foi projetada para automatizar o ciclo de
+            atendimento de solicitações DSAR, utilizando integrações
+            via API para consulta e validação de dados em bases
+            corporativas do cliente.
+
+            A abordagem permite apoiar a identificação das informações
+            relacionadas ao titular, aumentar a rastreabilidade do
+            processo e reduzir esforços operacionais através da
+            automatização de fluxos de tratamento e resposta.
+
+            O objetivo é contribuir para maior eficiência operacional,
+            padronização do atendimento e suporte às demandas de
+            conformidade relacionadas à LGPD.</p>
         </section>
 
         <section className="mt-16 mb-20">
@@ -118,7 +122,7 @@ function DSAR() {
           </div>
         </section>
 
-        <div className="bg-black rounded-3xl p-6 border border-white/10">
+        {/*  <div className="bg-black rounded-3xl p-6 border border-white/10">
           <h2 className="text-2xl font-semibold mb-4">
             Exemplo Freemarker
           </h2>
@@ -130,7 +134,7 @@ function DSAR() {
   Retornar erro
 </#if>`}
           </pre>
-        </div>
+        </div> */}
       </div>
     </div>
   );
